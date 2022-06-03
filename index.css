@@ -1,0 +1,156 @@
+*,*:before, *:after {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body {
+    position: relative;
+    width: 1440px;
+    height: 1880px;
+    background: #fff;
+    box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+#header {
+    border: 1px solid red;
+    position: relative;
+    width: 233px;
+    height: 25px;
+    left: 77px;
+    top: 40px;
+
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+
+    color: #333333;
+}
+
+#footer {
+    /* created by username - devChallenges.io */
+
+    position: absolute;
+    width: 287px;
+    height: 17px;
+    left: 577px;
+    top: 1039px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #BDBDBD;
+}
+
+.content{
+    float:left;
+    width: 80%;
+    position: absolute;
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+   
+}
+
+.container{
+    max-width: 940px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 10px;
+    align-items: baseline;
+}
+
+#header, #footer{
+    grid-column: 1 / -1;
+    clear: both;
+} 
+
+#img-scarecrow {
+    width: 539.22px;
+    height: 447.43px;
+    position: absolute;
+    left: 735px ;
+    top: 265px;
+    bottom: 34.03%;
+}
+#text>h1 {
+    /* I have bad news for you */
+
+position: absolute;
+width: 476px;
+height: 190px;
+left: 735px;
+top: 265px;
+
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 95px;
+letter-spacing: -0.035em;
+
+/* Gray 1 */
+
+color: #333333;
+
+}
+#text>p {
+    /*
+    The page you are looking for might be removed or is temporarily
+            unavailable
+    */
+    position: absolute;
+    width: 381px;
+    height: 108px;
+    left: 736px;
+    top: 491px;
+    
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.035em;
+    
+    /* Gray 2 */
+    
+    color: #4F4F4F;
+    
+}
+
+#text>#button {
+    position: absolute;
+    width: 216px;
+    height: 68px;
+    left: 740px;
+    top: 663px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: 0.035em;
+    text-transform: uppercase;
+    background: #333333;
+    color: #FFFFFF;
+
+}
